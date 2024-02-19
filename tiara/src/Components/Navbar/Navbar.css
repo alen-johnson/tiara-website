@@ -1,0 +1,48 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+
+    width: 300px;
+    height: 180px;
+}
+
+.navbar-logo img{
+    width: 70%;
+    height: auto;
+}
+
+.navbar-logo p{
+    color: rgb(90, 236, 255);
+    font-size: 3rem;
+
+    margin-top: -2rem;
+}
+
+.navbar-menu{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 2rem;
+
+    width: 800px;
+    height: 180px;
+}
+
+.navbar-menu li{
+    color: rgb(90, 236, 255);
+    list-style: none;
+    padding: 10px;
+
+    width: 100px;
+
+    font-size: 1rem;
+}
