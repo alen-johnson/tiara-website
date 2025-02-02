@@ -1,11 +1,12 @@
 import React from 'react'
-import { Footer, Navbar } from '../../Components/componentIndex'
+import { Footer, Navbar, Showcase } from '../../Components/componentIndex'
 
 const Home = () => {
   return (
     <div>
       <Navbar/>
       {/* main components here */}
+      <Showcase/>
       <Footer/>
     </div>
   )
