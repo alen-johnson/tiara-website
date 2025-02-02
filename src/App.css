@@ -1,15 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  --font--title: "Eagle Lake", serif;
+  --font--primary : "Roboto", serif;
+}
+
 html,
 body {
   height: 100%;
   margin: 0;
-  background: linear-gradient(45deg, rgb(54, 50, 50) 0%, black 100%),
-    linear-gradient(135deg, rgb(54, 50, 50) 0%, black 100%);
 }
 
 .app {
-  min-height: 100vh;
+  height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(45deg, rgb(54, 50, 50) 0%, black 100%),
+  linear-gradient(135deg, rgb(54, 50, 50) 0%, black 100%);
 }
+
+.app p,
+span,
+h1,
+h2,
+h3,
+h4 {
+  color: white;
+  font-family: var(--font--primary);
+
+}
+
